@@ -1,5 +1,15 @@
 # Expense Tracking System 
 
+## Table of Contents
+- [Overview](#overview)
+- [Project Features](#project-features)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Folder Structure](#folder-structure)
+- [Key Functionalities](#key-functionalities)
+- [Setup Instructions](#setup-instructions)
+- [Key Learnings](#key-learnings)
+
+
 ## **Overview**
 The Expense Tracking System is an end-to-end Python project designed to manage and analyze personal or organizational expenses. Built with a combination of **FastAPI**, **Streamlit**, and **MySQL**, this project demonstrates the integration of backend development, database interactions, and frontend user interface design. 
 
@@ -86,29 +96,30 @@ expense-tracking-system/
 - Libraries: FastAPI, Streamlit, mysql-connector-python, pytest, requests
 
 ### Steps
-1. Clone the repository:
+ **1. Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/expense-tracking-system.git
-   cd expense-tracking-system ```
-### **Set up the database**
-- Run the script in `database/expense_db_creation.sql` to create the required schema.
+   cd expense-tracking-system
+   ```
+ **2. Set up the database:**
+ - Run the script in `database/expense_db_creation.sql` to create the required schema.
 
-### **Install dependencies**
+ **3. Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Start the FastAPI backend**
+ **4. Start the FastAPI backend:**
 ```bash
 uvicorn backend.server:app --reload
 ```
 
-### **Run the Streamlit frontend**
+ **5. Run the Streamlit frontend:**
 ```bash
 streamlit run frontend/app.py
 ```
 
-### **Access the application**
+ **6. Access the application:**
 - FastAPI API docs: http://localhost:8000/docs
 - Streamlit app: http://localhost:8501
 
